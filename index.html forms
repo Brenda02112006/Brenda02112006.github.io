@@ -8,6 +8,7 @@
 </head>
 <body>
 
+
 <h1> Travel reservation form </h1>
 <form method= "get" action="/cadastro"> 
 
@@ -17,7 +18,7 @@ Full name: <br> <input type="text" placeholder="FirstName LastName">
 
 <br>
 
-Email address*: <br> <input type="'text" placeholder="EMAIL ADDRESS">
+Email address*: <br> <input type="'text" placeholder="EMAIL_ADDRESS">
 
 <br>
 
@@ -40,7 +41,24 @@ Number of persons*: <br> <input type="number" placeholder="UNKNOWN_TYPE" min="1"
 
 <br>
 
+What would you want to avail*
 
+<br> 
+
+Boarding: <input type="checkbox"/> <br>
+Fooding: <input type="checkbox"/> <br>
+Sight seeing: <input type="checkbox"/> <br>
+
+Discout Coupon code: <br> <input type="'text" placeholder="UNKNOWN_TYPE">
+
+<br>
+
+Terms and conditions*
+<br>
+  <input type="radio" /> I agree 
+  <input type="radio"/>  I disagree
+
+<br>
 <input type="submit" value="Complete reservation" />
 
 
