@@ -1,1 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
 
+<h1> Travel reservation form </h1>
+<form method= "get" action="/cadastro"> 
+
+<h4> *denotes mandotory </h4>
+
+Full name: <br> <input type="text" placeholder="FirstName LastName">
+
+<br>
+
+Email address*: <br> <input type="'text" placeholder="EMAIL ADDRESS">
+
+<br>
+
+
+Select Tour Package*: <br>
+ <select name="Select Tour Package">
+    <option value="Goa">Goa</option>
+    <option value="Andra Pradesh">Andra Padresh</option>
+    <option value="Haryana">Haryana</option> 
+    <option value="Assam">Assam</option>
+  </select>
+
+<br>
+
+Arrival date*: <br> <input type="date"  />
+
+<br>
+
+Number of persons*: <br> <input type="number" placeholder="UNKNOWN_TYPE" min="1" max="9" required>
+
+<br>
+
+
+<input type="submit" value="Complete reservation" />
+
+
+</body>
+</html>
