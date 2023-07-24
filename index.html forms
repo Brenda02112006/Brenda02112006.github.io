@@ -18,7 +18,7 @@ Full name: <br> <input type="text" placeholder="FirstName LastName">
 
 <br>
 
-Email address*: <br> <input type="'text" placeholder="EMAIL_ADDRESS">
+Email address*: <br> <input type="email" name="email" placeholder="EMAIL_ADDRESS" />
 
 <br>
 
@@ -33,7 +33,7 @@ Select Tour Package*: <br>
 
 <br>
 
-Arrival date*: <br> <input type="date"  />
+Arrival date*: <br> <input type="text" placeholder="m/d/y" />
 
 <br>
 
@@ -49,7 +49,7 @@ Boarding: <input type="checkbox"/> <br>
 Fooding: <input type="checkbox"/> <br>
 Sight seeing: <input type="checkbox"/> <br>
 
-Discout Coupon code: <br> <input type="'text" placeholder="UNKNOWN_TYPE">
+Discout Coupon code: <br> <input type="'text" placeholder="UNKNOWN_TYPE" min="1" max="6">
 
 <br>
 
