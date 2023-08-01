@@ -14,7 +14,7 @@
 
 <h4> *denotes mandotory </h4>
 
-Full name: <br> <input type="text" placeholder="FirstName LastName">
+Full name: <br> <input type="Full name" placeholder="FirstName LastName">
 
 <br>
 
@@ -33,11 +33,11 @@ Select Tour Package*: <br>
 
 <br>
 
-Arrival date*: <br> <input type="text" placeholder="m/d/y" />
+Arrival date*: <br> <input type="Arrival date" placeholder="m/d/y" />
 
 <br>
 
-Number of persons*: <br> <input type="number" placeholder="UNKNOWN_TYPE" min="1" max="9" required>
+Number of persons*: <br> <input type="number of persons" placeholder="UNKNOWN_TYPE" min="1" max="9" required>
 
 <br>
 
