@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+  height: 100vh;
+
+  margin: 0;
+
+  }
+  
+  div {
+    
+    font-size: 18px;
+    color: black;
+  }
+  
+  .esqcima{
+    background: red;
+    height: 100px;
+    width: 200px;
+    position: relative;
+    
+  }
+  
+  .esqbaixo {
+    background: green;
+    height: 100px;
+    width: 200px;
+    position: absolute;
+    top: 800px;
+   
+  }
+  
+
+ .dircima{
+    background: yellow;
+    height: 100px;
+    width: 200px;
+    position: relative;
+    
+    
+}
+
+.dirbaixo{
+    background: blue;
+    height: 100px;
+    width: 200px;
+    position: absolute;
+    top: 800px;
+    
+}
+
+
+  
+
