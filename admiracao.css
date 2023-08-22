@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+.header {
+    color: #3f3d3d;
+    padding: 1rem;
+    font-size: 1.1rem;
+}
+.container {
+   
+    margin: 0 auto;
+    padding: 2rem;
+    
+}
+.image {
+    width: 800px;
+    max-height: 800px;
+    object-fit: cover;
+    display: block;
+    margin: 0;
+
+}
+
+.image-caption{
+    margin-top: 0.5rem;
+    color: #000000;
+}
+
+.tribute-text{
+    word-spacing: 5px;
+    color: #000000;
+    
+}
+
+.link {
+    color: #007bff;
+    text-decoration: none;
+}
+
