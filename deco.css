@@ -1,0 +1,89 @@
+body{
+    background: linear-gradient(to right, #4f8b52 50%, #ffffff 50%);
+    height: 100%;
+    margin:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+
+.container{
+    margin-top:17%;
+    width: 150px; 
+    height: 150px;
+    border-radius: 50%; /*formato redondo */
+    overflow: hidden; /*recorta a imagem */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3)/*sombra */
+}
+
+.image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.ontop{
+    font-family: Tahoma;
+    color: rgba(0, 0, 0, );
+    text-align: center;
+    position: absolute;
+    top: 480px;
+}
+
+.name{
+        position: absolute;
+        top: 10px;
+        left:390px;
+        font-family: "Verdana";
+        color:#ffffff
+    }
+    
+    .sobre{
+        font-family: "Tahoma";
+        position: absolute;
+        top:0;
+        right: 1%;
+        padding: 10px;
+        
+    }
+    
+    .projetos{
+        font-family: "Tahoma";
+        position: absolute;
+        top:0;
+        right: 4%;
+        padding: 10px;
+    
+    }
+    
+    .logogit{
+        width:32px;
+        height:auto;
+        display: center;
+        position:absolute;
+        top: 58%;
+        left:890px;
+    }
+    
+    
+    .logoinsta{
+        width:32px;
+        height:auto;
+        display: center;
+        position:absolute;
+        top: 58%;
+        left:940px;
+    }
+
+    .partebaixa{
+        font-family: Tahoma;
+        color: rgba(0, 0, 0, );
+        text-align: center;
+        position: absolute;
+        margin-top:30%;
+        left:870px;
+}
+    
+    
