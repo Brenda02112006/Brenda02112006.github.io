@@ -77,6 +77,16 @@ body{
         left:940px;
     }
 
+    .logotik{
+        width:4%;
+        height:auto;
+        display: center;
+        position:absolute;
+        top: 57%;
+        left:965px;
+
+    }
+
     .partebaixa{
         font-family: Tahoma;
         color: rgba(0, 0, 0, );
