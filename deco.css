@@ -78,12 +78,13 @@ body{
     }
 
     .logotik{
-        width:4%;
+        width:32px;
         height:auto;
         display: center;
         position:absolute;
-        top: 57%;
-        left:965px;
+        top: 58%;
+        left:960px;
+
 
     }
 
