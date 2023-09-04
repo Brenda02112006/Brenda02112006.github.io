@@ -1,0 +1,103 @@
+html{
+  font-family: 'Inter', sans-serif;
+  color: white;
+}
+body{
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #417559;
+}
+main{
+  width: 80%;
+  height: 100%;
+  margin-bottom: 10px;
+}
+.conteiner{
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+div{
+  background-color: #85cf9e;
+  outline: solid 2px #85cf9e;
+  border-radius: 10px;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+div:hover{ /*transição */
+  transition: transform 100ms ease-in-out;
+  transform: scale(1.01);
+}
+
+img{
+  width: 40%;
+  height: 40%;
+  border-radius: 10px;
+}
+figure{
+  display: flex;
+}
+header{
+  text-align: center;
+  width: 100%;
+  height: 10vh;
+  position: flex;
+  vertical-align: bottom;
+}
+.infor1{
+  grid-area: 1 / 1 / 3 / 3;
+  background-image: linear-gradient(to top, transparent 0%, #28614b 50%), url(https://www2.ifal.edu.br/campus/maceio/noticias/alunos-do-ifal-recebem-medalhas-da-olimpiada-brasileira-de-fisica-das-escolas-publicas-obfep/alunos-do-ifal-medalhistas-da-obfep/@@images/cfdfee31-f2b7-4c5b-94f0-b05812ec1621.jpeg);
+  background-position: center;
+}
+.infor2{
+  grid-area: 1 / 3 / 2 / 5; 
+  color:black;
+}
+.infor3{
+  grid-area: 2 / 3 / 3 / 4; /* varias imgs */
+  background-image: linear-gradient(to top, transparent 0%, #28614b 50%), url(https://www2.ifal.edu.br/campus/santana/noticias/ifal-santana-abre-inscricoes-para-cursos-subsequentes/inscricoes-abertas-para-cursos-subsequentes/@@images/4f689fc8-edf9-418f-abe1-fd04c734f6ca.png );
+          background-position: center;
+}
+.infor4{
+  grid-area: 2 / 4 / 3 / 5;
+  background-image: linear-gradient(to top, transparent 0%, #28614b 50%), url(https://www2.ifal.edu.br/campus/maceio/noticias/ifal-maceio-abre-vagas-para-professor-substituto-1/a8193063-c483-48cf-bc73-9ab255fc1f71.jpg/@@images/ed821efe-e1f8-4d42-aae4-c3db90dcf40d.jpeg);
+          background-position: center;
+}
+.infor5{
+  grid-area: 3 / 3 / 3 / 5;
+  color:black;
+}
+.infor6{
+  grid-area: 3 / 1 / 3 / 2;
+  background-image: linear-gradient(to top, transparent 0%, #28614b 50%), url(https://www2.ifal.edu.br/campus/arapiraca/noticias/inscricoes-abertas-em-cursos-de-curta-duracao-de-desenvolvimento-de-aplicativos-e-introducao-a-programacao/cursos-de-curta-duracao-arapiraca-e-maceio/@@images/90c921c9-8d2f-433d-953a-1fe5a7c8bdb7.png);
+  background-position: center;
+}
+.infor7{
+  grid-area: 3 / 2 / 3 / 3;
+  background-image: linear-gradient(to top, transparent 0%, #28614b 50%), url(https://www.ifpb.edu.br/noticias/2023/08/divulgado-resultados-preliminares-dos-editais-de-pesquisa/resultado-preliminar.png/@@images/3903bbcb-93a6-4166-88da-e281e4d2cdc6.png);
+  background-position: center;
+}
+h1, h3, p{
+  padding: 0px 10px 0px 10px;
+}
+.noticias{
+  width: 50%;
+  height: 50%;
+}
+@media (max-width: 986px){
+  .conteiner{
+      display: block;
+  }
+  div{
+      width: 100%;
+      height: 250px;
+      margin-bottom: 10px;
+  }
+}
