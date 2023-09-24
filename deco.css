@@ -1,21 +1,40 @@
-body{
-    background: linear-gradient(to right, #4f8b52 50%, #ffffff 50%);
+html {
+    width: 100%;
     height: 100%;
-    margin:0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
-    font-family: Verdana, Tahoma, sans-serif;
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to right, #dbdbdb 50%, #3e8091 50%);
+}
+
+a {
+    text-decoration: none;
 }
 
 
 .container{
-    margin-top:17%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top:180%; /*deixar no meio*/
     width: 150px; 
     height: 150px;
     border-radius: 50%; /*formato redondo */
     overflow: hidden; /*recorta a imagem */
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3)/*sombra */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);/*sombra */
+    align-items: center;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 10px;
 }
 
 .image{
@@ -25,75 +44,95 @@ body{
 }
 
 .ontop{
-    font-family: Tahoma;
-    color: rgba(0, 0, 0, );
+   font-family: Tahoma;
+    color: black;
     text-align: center;
-    position: absolute;
-    top: 480px;
+    position: relative;
+    top: 0%;
 }
 
 .name{
+    font-variant: small-caps;
+    mix-blend-mode: difference;
         position: absolute;
         top: 10px;
         left:390px;
-        font-family: "Verdana";
         color:#ffffff
     }
     
     .sobre{
+       
         font-family: "Tahoma";
         position: absolute;
         top:0;
         right: 1%;
         padding: 10px;
-        
+        margin-left: 7%; 
+        display: flex;
+        cursor: pointer;
+        align-items: center;
+        justify-content: center;
+        z-index: 98;
+        height: 2.3em;
+        width: 2.3em;
+        transition: .2s;
+        border-radius: 100%;
+    
+    
     }
     
     .projetos{
+        display: center;
         font-family: "Tahoma";
         position: absolute;
         top:0;
         right: 4%;
         padding: 10px;
+        display: flex;
+        cursor: pointer;
+        align-items: center;
+        justify-content: center;
+        z-index: 98;
+        height: 2.3em;
+        width: 2.3em;
+        transition: .2s;
+        border-radius: 100%;
+
     
     }
     
     .logogit{
         width:32px;
         height:auto;
-        display: center;
         position:absolute;
-        top: 58%;
+        top: 65%;
         left:890px;
+        display: flex;
+    
     }
     
     
     .logoinsta{
         width:32px;
         height:auto;
-        display: center;
         position:absolute;
-        top: 58%;
+        top: 65%;
         left:940px;
+        display: flex;
+       
+     
     }
 
-   .logotik{
-        width:60px;
-        height:auto;
-        display: center;
-        position:absolute;
-        top: 58%;
-        left:965px;
-
-    }
-
-    .partebaixa{
-        font-family: Tahoma;
-        color: rgba(0, 0, 0, );
-        text-align: center;
-        position: absolute;
-        margin-top:30%;
-        left:870px;
-}
     
+    footer {
+        width: 100%;
+        height: 4rem;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+
+   
     
