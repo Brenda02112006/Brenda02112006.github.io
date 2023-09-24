@@ -1,33 +1,33 @@
 body{
-   background-color: black;
-}
-
-.tabela {
-   display: grid;
-   grid-template-columns: auto auto;
-   grid-gap: 6px;
+    background-color: black;
  }
  
- /* Estilo para a primeira linha (cabeçalho) */
- .cabecalho {
-   grid-column: span 2; /* Ocupa duas colunas */
-   background-color: rgb(43, 41, 41);
-   padding: 5px;
-   color:#9ddda0;
-   font-family: 'Jost', sans-serif;
- }
+ .tabela {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 6px;
+  }
+  
+  /* Estilo para a primeira linha (cabeçalho) */
+  .cabecalho {
+    grid-column: span 2; /* Ocupa duas colunas */
+    background-color: rgb(43, 41, 41);
+    padding: 5px;
+    color: #3e8091;
+    font-family: 'Jost', sans-serif;
+  }
+  
+  /* Estilo para as linhas */
+  .linha {
+    background-color:rgb(43, 41, 41);
+    padding: 5px;
+    color:#3e8091;
+    font-family: 'Jost', sans-serif;
+  }
  
- /* Estilo para as linhas */
- .linha {
-   background-color:rgb(43, 41, 41);
-   padding: 5px;
-   color: #9ddda0;
+  .text{
+   color:white;
    font-family: 'Jost', sans-serif;
- }
-
- .text{
-  color:white;
-  font-family: 'Jost', sans-serif;
- }
+  }
 
 
