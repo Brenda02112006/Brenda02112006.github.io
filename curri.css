@@ -1,42 +1,44 @@
 .body{
-  display: grid;
-}
-.exper{
-  margin-left: 30%;
-}
-
-.text1{
-  margin-left: 20%;
-}
-.text2{
-  margin-left: 20%;
-}
-.text3{
-  margin-left: 20%;
-}
-.educacao{
-  margin-left: 35%;
-}
-
-.github{
-  margin-left: 20px;
-}
-.marca1{
-  background-color: yellow;
-  font-weight: bold;
-}
-.tiktok{
-  margin-left: 2%;
-}
-.Instagram{
-  margin-left: 2%;
-}
-.marca2{
-  background-color: yellow;
-  font-weight: bold;
-}
-.marca3{
-  background-color: yellow;
-  font-weight: bold;
-}
-
+    display: grid;
+  }
+  .exper{
+    margin-left: 30%;
+  }
+  
+  .text1{
+    margin-left: 20%;
+  }
+  .text2{
+    margin-left: 20%;
+  }
+  .text3{
+    margin-left: 20%;
+  }
+  .educacao{
+    margin-left: 35%;
+  }
+  
+  .github{
+    margin-left: 20px;
+  }
+  .marca1{
+    color:white;
+    background-color:  #3e8091 ;
+    font-weight: bold;
+  }
+  .tiktok{
+    margin-left: 2%;
+  }
+  .Instagram{
+    margin-left: 2%;
+  }
+  .marca2{
+    color: white;
+    background-color: #3e8091 ;
+    font-weight: bold;
+  }
+  .marca3{
+    color: white;
+    background-color: #3e8091;
+    font-weight:bold;
+  }
