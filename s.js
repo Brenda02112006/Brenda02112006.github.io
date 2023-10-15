@@ -1,6 +1,6 @@
 function dividirNome() {
     var nomeCompleto = document.getElementById("nomeCompleto").value;
-    var nomeArray = nomeCompleto.split("");
+    var nomeArray = nomeCompleto.split(" ");
     
     if (nomeArray.length >= 1) {
         document.getElementById("nome").value = nomeArray[0];
@@ -12,5 +12,4 @@ function dividirNome() {
     } else {
         alert("Por favor, insira um nome completo válido.");
     }
-
 }
