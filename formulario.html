@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário JavaScript</title>
+    <link rel="stylesheet" href="formu.css">
+</head>
+<body>
+    
+    <h1 class="centered-title">Escola Virtual</h1>
+    <h2 class="centered-title">Formulário de Pré-Matrícula</h2>
+<hr>
+
+<div class="form-box"> 
+<strong> Dados Pessoais:</strong>
+
+<div class="form-content">
+<form action="processar_formulario.php" method="post">
+    <label for="nome">Nome do Aluno:</label>
+    <input type="text" id="nome" name="nome" required>
+<br>
+<br>
+    <label for="dataNascimento"> Nascimento (dd/mm/aaaa):</label>
+        <input type="date" id="dataNascimento" name="dataNascimento" required>
+<br>
+<br>
+        <label for="nome">Nome da Mãe:</label>
+        <input type="text" id="nome" name="nome" required>
+<br>
+<br>
+        <label for="nome">Nome do Pai:</label>
+        <input type="text" id="nome" name="nome" required>
+<br>
+<br>
+
+<div class="telephone-group">
+    <div class="telephone-field">
+        <label for="telefone">Telefone: DDD</label>
+        <input type="number" id="telefone" name="telefone" required>
+    </div>
+    <div class="telephone-field">
+        <label for="tel">Tel:</label>
+        <input type="number" id="tel" name="tel" required>
+    </div>
+    <div class="telephone-field">
+        <label for="ramal">RAMAL:</label>
+        <input type="number" id="ramal" name="ramal" required>
+    </div>
+    
+    </div>
+
+    <label for="nome">Email:</label>
+    <input type="text" id="nome" name="nome" required>
+    <br>
+    <br>
+    <hr>
+
+    </div>
+
+    <br>
+
+    <strong> Informações de Matrícula:</strong>
+    <p> Série:</p>
+    <label for="escolhaOpcao"></label>
+<select id="escolhaOpcao" name="opcao">
+    <option value="opcao1">Pré-Escolar</option>
+    <option value="opcao2">Ensino Fundamental I</option>
+    <option value="opcao3">Ensino Fundamental II</option>
+    <option value="opcao3">1 Série do Ensino Médio</option>
+    <option value="opcao3">2 Série do Ensino Médio</option>
+    <option value="opcao3">3 Série do Ensino Médio</option>
+</select>
+
+   
+<div class="select-container">
+    <div class="select-option">
+    <p>Turno:</p>
+    <input type="radio" name="turno" id="turno-manha" required>
+    <label for="turno-manha">Manhã</label>
+    <br>
+    <input type="radio" name="turno" id="turno-tarde" required>
+    <label for="turno-tarde">Tarde</label>
+    </div>
+
+    <div class="select-option">
+    <p>Atividades Extracurriculares:</p>
+
+    <div id="opcoes">
+        <input type="checkbox" name="opcao1" id="opcao1" value="opcao1">
+        <label for="opcao1">Informática</label><br>
+
+        <input type="checkbox" name "opcao2" id="opcao2" value="opcao2">
+        <label for="opcao2">Música</label><br>
+
+        <input type="checkbox" name="opcao3" id="opcao3" value="opcao3">
+        <label for="opcao3">Balet</label><br>
+
+        <input type="checkbox" name="opcao4" id="opcao4" value="opcao4">
+        <label for="opcao4">Pintura</label><br>
+
+        <input type="checkbox" name="opcao5" id="opcao5" value="opcao5">
+        <label for="opcao5">Judô</label><br>
+
+        <input type="checkbox" name="opcao6" id="opcao6" value="opcao6">
+        <label for="opcao6">Futebol</label><br>
+    </div>
+</div>
+</div>
+
+<div class="buttons-container">
+    <!-- Botão para enviar o formulário -->
+    <button type="submit">Enviar</button>
+    <!-- Botão para limpar todas as informações -->
+    <button type="reset">Limpar</button>
+</div>
+
+
+    <script src="formul.js" > </script>
+</body>
+</html>
