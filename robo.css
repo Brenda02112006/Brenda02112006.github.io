@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* imagens no meio  */
+    margin: 0;
+}
+
+#slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%; /* Defina o tamanho desejado */
+}
+
+#slide img {
+    max-width: 80%; /* Redimensiona a imagem para caber na largura do elemento #slide */
+    height: auto;
+    display: none;
+    border: 2px solid #000;
+}
