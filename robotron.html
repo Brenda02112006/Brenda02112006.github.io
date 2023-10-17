@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robotron 3000 - Slide</title>
+    <link rel="shortcut icon" href="../../multimedia/ico/robotron.ico" type="image/x-icon">
+    <link rel="stylesheet" href="robo.css">
+</head>
+<body>
+    <div id="slide">
+        <img id="robotron-azul" src="robotron-azul.png" alt="Robotron Azul">
+        <img id="robotron-vermelho" src="robotron-amarelo.png" alt="Robotron Vermelho">
+        <img id="robotron-rosa" src="robotron-branco.png" alt="Robotron Rosa">
+        <img id="robotron-amarelo" src="robotron-preto.png" alt="Robotron Amarelo">
+        <img id="robotron-branco" src="robotron-rosa.png" alt="Robotron Branco">
+        <img id="robotron-preto" src="robotron-vermelho.png" alt="Robotron Preto">
+    </div>
+    <select onchange="mudarDemonstracaoDoRobotron(this.value)">
+        <option value="TrocaDeCor">Troca de Cores</option>
+
+    </select>
+    <div id="buttons">
+        <button id="voltar" onclick="mudarSlide(-1)">&lt;&lt;</button>
+        <button id="avancar" onclick="mudarSlide(1)">&gt;&gt;</button>
+    </div>
+
+    <script src="robon.js"></script>
+
+</body>
+</html>
