@@ -1,0 +1,132 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.centered-title {
+    text-align: center; /* Centraliza o texto na horizontal */
+}
+
+.form-box {
+    width: 30%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/* Estilos para o conteúdo do formulário */
+.form-content {
+    text-align: center;
+}
+
+.form-content input {
+    width: 30%; /* Largura definida em porcentagem */
+    padding: 10px; /* Tamanho do preenchimento (espaço dentro da caixa) */
+    font-size: 18px; /* Tamanho da fonte maior */
+}
+
+/* Estilos para o campo de entrada "Data de Nascimento" */
+.form-content input[type="date"] {
+    width: 25%; /* Largura definida em porcentagem */
+    padding: 0px; /* Tamanho do preenchimento (espaço dentro da caixa) */
+    font-size: 13px; /* Tamanho da fonte maior */
+}
+
+.form-content input[type="text"] {
+    width: 25%; /* Largura definida em porcentagem */
+    padding: 0px; /* Tamanho do preenchimento (espaço dentro da caixa) */
+    font-size: 13px; /* Tamanho da fonte maior */
+}
+
+.form-content input[type="number"] {
+    width: 10%; /* Largura definida em porcentagem */
+    padding: 0px; /* Tamanho do preenchimento (espaço dentro da caixa) */
+    font-size: 13px; /* Tamanho da fonte maior */
+}
+
+.form-content input[type="number1"] {
+    width: 15%; /* Largura definida em porcentagem */
+    padding: 0px; /* Tamanho do preenchimento (espaço dentro da caixa) */
+    font-size: 13px; /* Tamanho da fonte maior */
+}
+.form-content label, .form-content input {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.form-content label {
+    width: 20%;
+    text-align: right;
+    margin-right: 5%;
+}
+
+.form-content input {
+    width: 20%;
+    padding: 5px;
+}
+
+/* Estilos para a nova div "telephone-group" */
+.telephone-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+/* Estilos para os campos de entrada na div "telephone-group" */
+.telephone-group label {
+    width: 25%;
+    text-align: right;
+    margin-right: 5px;
+}
+
+.telephone-group input {
+    width: 20%;
+    padding: 5px;
+    font-size: 13px;
+}
+
+
+.select-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.select-option {
+    flex: 1;
+    width: 45%; /* Largura desejada para cada seção */
+    margin-bottom: 10px; /* Espaçamento entre as seções */
+}
+
+.buttons-container {
+    text-align: center; /* Centraliza o conteúdo horizontalmente */
+    margin-top: 20px; /* Adiciona um espaço entre o conteúdo e os botões */
+}
+
+.buttons-container button {
+    background-color: #007BFF; /* Cor de fundo azul */
+    color: #FFF; /* Cor do texto branca */
+    padding: 10px 20px; /* Espaçamento interno (altura x largura) */
+    border: none; /* Remove a borda */
+    border-radius: 5px; /* Cantos arredondados */
+    cursor: pointer; /* Altera o cursor para uma mão ao passar o mouse */
+    font-size: 16px; /* Tamanho da fonte */
+}
+
+.buttons-container button:hover {
+    background-color: #0056b3; /* Cor de fundo mais escura ao passar o mouse */
+}
+
+/* Estilizando o botão "Limpar" de forma diferente */
+.buttons-container button[type="reset"] {
+    background-color: #DC3545; /* Cor de fundo vermelha */
+}
+
+.buttons-container button[type="reset"]:hover {
+    background-color: #b02d37; /* Cor de fundo mais escura ao passar o mouse */
+}
+
+
